@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_courses"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="My Courses" />
+        <item
+            android:id="@+id/nav_timetable"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Timetable" />
+        <item
+            android:id="@+id/nav_complet_courses"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Completed Courses" />
+        <item
+            android:id="@+id/nav_find"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Find Courses" />
+        <item
+            android:id="@+id/nav_all_courses"
+            android:icon="@drawable/ic_menu_send"
+            android:title="All Courses" />
+    </group>
+
+    <item android:title="Actions">
+        <menu>
+            <item
+                android:id="@+id/nav_reload_courses"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Reload Courses" />
+            <item
+                android:id="@+id/nav_start_rem"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Start Reminders" />
+            <item
+                android:id="@+id/nav_stop_rem"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Stop Reminders" />
+        </menu>
+    </item>
+
+</menu>
